@@ -1,16 +1,12 @@
-.box {
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
     width: 100px;
-    float: center;
+    height: 100px;
+    grid-gap: 1em;
 }
 .box-image {
     width: 100px;
+    height: 100px;
+    margin: 0px;
 }
-#grid {
-    width: 200px;
-    display: grid;
-    grid-template-areas: "a a";
-    grid-gap: 10px;
-    grid-auto-rows: auto;
-    padding: 10px;
-    border: solid;
-  }
