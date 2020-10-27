@@ -1,0 +1,19 @@
+
+tr:nth-child(odd) {
+  background-color: red;
+}
+tr:nth-child(even) {
+  background-color: white;
+}
+td {
+  padding: 15px;
+}
+.flag {
+  position: absolute;
+  width: 300px;
+  margin-top: 2px;
+}
+table {
+  width: 600px;
+  border: 1px none;
+}

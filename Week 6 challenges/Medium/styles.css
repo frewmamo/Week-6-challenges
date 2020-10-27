@@ -1,0 +1,16 @@
+.box {
+    width: 100px;
+    float: center;
+}
+.box-image {
+    width: 100px;
+}
+#grid {
+    width: 200px;
+    display: grid;
+    grid-template-areas: "a a";
+    grid-gap: 10px;
+    grid-auto-rows: auto;
+    padding: 10px;
+    border: solid;
+  }
